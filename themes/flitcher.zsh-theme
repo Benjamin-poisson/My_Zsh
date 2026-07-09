@@ -1,8 +1,8 @@
 if [[ -z $ZSH_THEME_CLOUD_PREFIX ]]; then
-    ZSH_THEME_CLOUD_PREFIX=' 𝔉 𝔩𝔦𝔱𝔠𝔥𝔢𝔯'
+    ZSH_THEME_CLOUD_PREFIX=' 𝔅 𝔢𝔭𝔬𝔦𝔰𝔰𝔬'
 fi
 
-#➤𝔅𝔢𝔭𝔬𝔦𝔰𝔰𝔬 > 𝔟𝔢𝔭𝔬𝔦𝔰𝔰𝔬
+#➤ 𝔅 𝔢𝔭𝔬𝔦𝔰𝔰𝔬 > 𝔟𝔢𝔭𝔬𝔦𝔰𝔰𝔬 > 𝔉 𝔩𝔦𝔱𝔠𝔥𝔢𝔯
 PROMPT='%{$fg_bold[green]%}╭─%{$fg_bold[cyan]%}$ZSH_THEME_CLOUD_PREFIX%{$fg_bold[green]%}%{$fg[green]%} ► %3~$(hg_prompt_info) %{$fg_bold[cyan]%}$(git_prompt_info)%{$fg_bold[blue]%}%{$reset_color%}
 %{$fg_bold[green]%}╰─%{$fg[cyan]%}➤ %{$reset_color%}'
 
